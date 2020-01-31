@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsultActivity"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/main_fra"
+        android:layout_width="match_parent"
+        android:layout_height="660dp"/>
+
+
+    <com.flyco.tablayout.CommonTabLayout
+        app:tl_textSelectColor="#F44336"
+        app:tl_textUnselectColor="#000"
+        android:id="@+id/main_comm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+</LinearLayout>

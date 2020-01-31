@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/recycri">
+
+
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="游戏"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:id="@+id/img_cha"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/chahao"/>
+
+
+
+
+</LinearLayout>
